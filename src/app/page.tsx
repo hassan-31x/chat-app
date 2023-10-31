@@ -1,10 +1,17 @@
-import { Button } from "@/components/ui/button";
+import { redirect } from "next/navigation"
 
-export default function Home() {
+import { initialProfile } from "@/lib/initialProfile"
+
+export default async function Home() {
+  const profile = await initialProfile()
+
+  if (profile) {
+   return redirect('/chat') 
+  }
+
   return (
     <div>
-      Hello World
-      <Button>CLick Me</Button>
+      Create your Profile
     </div>
   )
 }
