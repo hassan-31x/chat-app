@@ -1,0 +1,5 @@
+remove clerk watermark
+
+make a subdomain and shift everything chat related in it
+
+create a resusable function to authorize users
