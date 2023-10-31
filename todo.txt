@@ -1,5 +1,5 @@
 remove clerk watermark
 
-make a subdomain and shift everything chat related in it
+make a subdomain and shift everything chat related in it: https://medium.com/@jfbaraky/using-subdomains-as-paths-on-next-js-e5aab5c28c28
 
 create a resusable function to authorize users

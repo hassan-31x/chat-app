@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className='w-full h-20 flex justify-end px-10 gap-5 items-center'>
         <ModeToggle />
-        <UserButton />
+        <UserButton afterSignOutUrl='/' />
     </div>
   )
 }
